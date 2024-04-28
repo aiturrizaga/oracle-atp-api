@@ -1,0 +1,12 @@
+server:
+  port: 8085
+  servlet:
+    context-path: /${spring.application.name}
+spring:
+  application:
+    name: oraclecloud
+  datasource:
+    url: jdbc:oracle:thin:@workshopvg_medium?TNS_ADMIN=D:/Wallets/workshopvg
+    username: admin
+    password: Vallegrande2024
+    driver-class-name: oracle.jdbc.OracleDriver
